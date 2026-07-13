@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Official portfolio of Syed Mujtaba Hassan. MS Computer Science specialist in AI, ML, Deep Learning, and Data Science." />
+<title>Syed Mujtaba Hassan | AI/ML Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="bg-glow"></div>
+
+<!-- NAV -->
+<header class="navbar" id="home">
+  <div class="nav-container">
+    <a href="#home" class="logo">Syed Mujtaba<span>Official</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#send-message-form" class="btn btn-primary nav-cta">Send Message</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-text">
+      <p class="eyebrow">Hello, My name is</p>
+      <h1>Syed Mujtaba Hassan</h1>
+      <h2 class="typewriter"><span id="typewriter-text"></span><span class="cursor">|</span></h2>
+      <p class="hero-desc">MS Computer Science professional specialising in Artificial Intelligence, Machine Learning, Deep Learning, and Data Science.</p>
+      <div class="hero-actions">
+        <a href="zafar.pdf" target="_blank" class="btn btn-primary">Open Resume</a>
+        <a href="zafar.pdf" download class="btn btn-outline">Download Resume</a>
+        <a href="#projects" class="btn btn-ghost">View Projects</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="image-ring"></div>
+      <img src="https://sayedmujtaba.netlify.app/image/mujtaba.png" alt="Syed Mujtaba Hassan" />
+    </div>
+  </div>
+  <a href="#about" class="scroll-down"><span></span>Scroll Down</a>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section-container about-grid">
+    <div class="about-image">
+      <img src="https://sayedmujtaba.netlify.app/image/mujtaba.png" alt="Syed Mujtaba Hassan" />
+    </div>
+    <div class="about-content">
+      <p class="eyebrow">About Me</p>
+      <h2>My Journey &amp; Skills</h2>
+      <p>I'm Syed Mujtaba Hassan, an accomplished MS Computer Science professional with over six years of combined academic and industry experience, specialising in Artificial Intelligence, Data Science, Machine Learning, and Deep Learning.</p>
+      <p>I have extensive expertise in software development and the creation of intelligent, data-driven systems using state-of-the-art AI methodologies. As a Lecturer, I have taught and mentored students in cutting-edge AI topics including Machine Learning, Deep Learning, Artificial Neural Networks, and Data Science.</p>
+      <p>I'm passionate about solving real-world problems through AI innovations and continuously expanding my skills in deep learning, computer vision, NLP, and intelligent system design. I'm always open to new opportunities and collaborations in AI research, data science, and software development. Let's connect if you're working on something impactful!</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <div class="section-container">
+    <p class="eyebrow center">Tech Stack</p>
+    <h2 class="center">My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-pill"><i class="fa-solid fa-brain"></i>Machine Learning</div>
+      <div class="skill-pill"><i class="fa-solid fa-network-wired"></i>Deep Learning</div>
+      <div class="skill-pill"><i class="fa-solid fa-chart-line"></i>Data Science</div>
+      <div class="skill-pill"><i class="fa-solid fa-robot"></i>Artificial Intelligence</div>
+      <div class="skill-pill"><i class="fa-solid fa-diagram-project"></i>Neural Networks</div>
+      <div class="skill-pill"><i class="fa-brands fa-python"></i>Python</div>
+      <div class="skill-pill"><i class="fa-solid fa-magnifying-glass-chart"></i>Data Analysis</div>
+      <div class="skill-pill"><i class="fa-solid fa-code"></i>Software Dev</div>
+      <div class="skill-pill"><i class="fa-solid fa-eye"></i>Computer Vision</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <div class="section-container">
+    <p class="eyebrow center">My Projects</p>
+    <h2 class="center">Featured Work</h2>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-img"><img src="https://sayedmujtaba.netlify.app/image/project-ml-classification.svg" alt="Image Classification" /></div>
+        <h3>Image Classification Model</h3>
+        <p>A deep learning model using TensorFlow and Keras for image classification on benchmark datasets with high accuracy.</p>
+        <a href="#contact" class="project-link">Live Demo <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-img"><img src="https://sayedmujtaba.netlify.app/image/project-data-pipeline.svg" alt="Data Science Pipeline" /></div>
+        <h3>Data Science Pipeline</h3>
+        <p>An end-to-end data science pipeline covering preprocessing, feature engineering, model training, and evaluation.</p>
+        <a href="#contact" class="project-link">Live Demo <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-img"><img src="https://sayedmujtaba.netlify.app/image/project-nlp.svg" alt="NLP Sentiment Analysis" /></div>
+        <h3>NLP Sentiment Analysis</h3>
+        <p>An NLP system built with PyTorch for text classification and sentiment analysis on real-world datasets.</p>
+        <a href="#contact" class="project-link">Live Demo <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-img"><img src="https://sayedmujtaba.netlify.app/image/project-predictive.svg" alt="Predictive Analytics App" /></div>
+        <h3>Predictive Analytics App</h3>
+        <p>A web application using ML models deployed with Flask for real-time predictive analytics and insights generation.</p>
+        <a href="#contact" class="project-link">Live Demo <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="section-container">
+    <p class="eyebrow center">Contact Me</p>
+    <h2 class="center">Get In Touch</h2>
+    <p class="contact-intro">Passionate about Artificial Intelligence, Machine Learning, and Data Science — always eager to connect and collaborate on innovative AI-driven solutions. Feel free to reach out if you'd like to discuss ideas or build something impactful together!</p>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <a href="mailto:SMHassan63@gmail.com" class="info-row"><i class="fa-solid fa-envelope"></i>SMHassan63@gmail.com</a>
+        <a href="tel:+923361719581" class="info-row"><i class="fa-solid fa-phone"></i>+92 336 1719581</a>
+        <div class="info-row"><i class="fa-solid fa-location-dot"></i>Pakistan</div>
+
+        <h3>Follow Me</h3>
+        <div class="socials">
+          <a href="https://github.com/Syed-Mujtaba-Hassan" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://pk.linkedin.com/in/syed-mujtaba-hassan-9a7b04249" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/syed_mujtaba.01/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="mailto:SMHassan63@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="send-message-form">
+        <h3>Send Me a Message</h3>
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <input type="text" placeholder="Subject" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="section-container footer-grid">
+    <p>&copy; <span id="year"></span> Syed Mujtaba Hassan. All rights reserved.</p>
+    <div class="socials">
+      <a href="https://github.com/Syed-Mujtaba-Hassan" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://pk.linkedin.com/in/syed-mujtaba-hassan-9a7b04249" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/syed_mujtaba.01/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="mailto:SMHassan63@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <nav class="footer-links">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<div class="toast" id="toast">Message sent successfully!</div>
+
+<script src="script.js"></script>
+</body>
+</html>
